@@ -161,7 +161,7 @@ double calcDist(double x, double y) {
 
 void log_data() {
 	int way = getCurrentWaypoint();
-	printf("X_POSITION_:%lf   Y_POSITION_:%lf   CURRENT_WAYPOINT_FOLLOWING:%d /n", sim_xp , sim_yp , way);
+	printf("X_POSITION_:%lf   Y_POSITION_:%lf   CURRENT_WAYPOINT_FOLLOWING:%d \n", sim_xp , sim_yp , way);
 }
 
 
