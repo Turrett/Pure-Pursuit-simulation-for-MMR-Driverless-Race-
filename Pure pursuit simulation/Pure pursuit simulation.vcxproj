@@ -143,7 +143,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.c" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Pure_pursuit_engine.cpp" />
+    <ClCompile Include="waypoint_creator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pure_pursuit.h" />
